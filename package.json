@@ -2,8 +2,9 @@
   "name": "ws-server",
   "version": "1.0.0",
   "description": "websocket message broadcast server",
-  "main": "websockets-server.js",
+  "main": "index.js",
   "scripts": {
+    "start": "node index.js"
   },
   "keywords": [
     "websocket",
@@ -19,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/jnwelzel/ws-server/issues"
   },
-  "homepage": "https://github.com/jnwelzel/ws-server"
+  "homepage": "https://github.com/jnwelzel/ws-server",
+  "dependencies": {
+    "express": "^4.12.3",
+    "ws": "^0.7.1"
+  }
 }
