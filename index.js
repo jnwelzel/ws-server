@@ -18,7 +18,7 @@ wss.on('connection', function(ws) {
   ws.on('message', function(message) {
     wss.broadcast(message);
   });
-  ws.send('something');
+  ws.send('Welcome to the Chat Sample server!');
 });
 
 wss.broadcast = function broadcast(data) {
