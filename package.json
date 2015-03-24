@@ -1,0 +1,23 @@
+{
+  "name": "ws-server",
+  "version": "1.0.0",
+  "description": "websocket message broadcast server",
+  "main": "websockets-server.js",
+  "scripts": {
+  },
+  "keywords": [
+    "websocket",
+    "server",
+    "chat"
+  ],
+  "author": "Jonathan Welzel (jnwelzel@gmail.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jnwelzel/ws-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jnwelzel/ws-server/issues"
+  },
+  "homepage": "https://github.com/jnwelzel/ws-server"
+}
